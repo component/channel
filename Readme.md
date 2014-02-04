@@ -1,6 +1,6 @@
 # channel
 
-> Thing comes in here, thing comes out there.
+> Event comes in here, event comes out there.
 
 ![](https://i.cloudup.com/fXcoOto61r.png)
 
