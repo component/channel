@@ -18,7 +18,7 @@ thing
 
 ## Middleware and Data Transformation
 
-! [](https://i.cloudup.com/RT8a5tfItX.png)
+![](https://i.cloudup.com/RT8a5tfItX.png)
 
 Channels can operate on the data being transmitted through express-like middleware. 
 
