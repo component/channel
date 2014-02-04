@@ -22,8 +22,6 @@ thing
 
 ## Middleware and Data Transformation
 
-![](https://i.cloudup.com/RT8a5tfItX.png)
-
 Channels can operate on the data being transmitted through express-like middleware. 
 
 ```javascript
@@ -47,6 +45,8 @@ THING
 
 Middleware are executed asynchronously, so you can do interesting things like introducing latency or dropping events to simulate
 adverse network conditions locally.
+
+![](https://i.cloudup.com/RT8a5tfItX.png)
 
 ### Middleware parameters
 
