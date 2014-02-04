@@ -97,7 +97,7 @@ The `pipe()` method is also available when you want to simultaneously pipe event
 
 Creates a new `Channel`.
 
-### `Channel`
+### Channel
 
 #### `Channel#a`
 
@@ -111,7 +111,7 @@ The `b` `Endpoint` of the channel.
 
 Use a middleware on this channel. `middleware` is a function, taking two parameters: `evt` and `next`.
 
-### `Endpoint`
+### Endpoint
 
 #### `Endpoint#emit(name, args...)`
 
