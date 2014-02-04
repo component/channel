@@ -1,6 +1,6 @@
 # channel
 
-> Thing Comes in Here, Thing Comes out There
+> Thing comes in here, thing comes out there.
 
 A **channel** is a two-sided event emitter with support for middleware. If you emit an event on the `a` side it will come out on the `b` side, and vice versa.
 
