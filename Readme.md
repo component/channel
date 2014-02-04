@@ -93,43 +93,43 @@ The `pipe()` method is also available when you want to simultaneously pipe event
 
 ## API
 
-### The `channel()` function
+### `channel()`
 
 Creates a new `Channel`.
 
-### `Channel` Objects
+### `Channel`
 
-#### The `Channel#a` property
+#### `Channel#a`
 
 The `a` `Endpoint` of the channel.
 
-#### The `Channel#b` property
+#### `Channel#b`
 
 The `b` `Endpoint` of the channel.
 
-#### The `Channel#use(middleware)` method
+#### `Channel#use(middleware)`
 
 Use a middleware on this channel. `middleware` is a function, taking two parameters: `evt` and `next`.
 
-### `Endpoint` Objects
+### `Endpoint`
 
-#### The `Endpoint#emit(name, args...)` method
+#### `Endpoint#emit(name, args...)`
 
 Emit an event with `name` and `args`. (It will fire on the other `Endpoint`, after going through the middleware);
 
-#### The `Endpoint#on(name, fn)` method
+#### `Endpoint#on(name, fn)`
 
 Register `fn` as a handler function for event `name`.
 
-#### The `Endpoint#pipeOut(name, target)` method
+#### `Endpoint#pipeOut(name, target)`
 
 Pipe out `name` events into `target`. Target can be an Emitter, another Channel or anything that exposes an `emit()` method.
 
-#### The `Endpoint#pipeIn(name, target)` method
+#### `Endpoint#pipeIn(name, target)`
 
 Pipe in `name` events from `target`. Target can be an Emitter, another Channel or anything that exposes an `on()` method.
 
-#### The `Endpoint#pipe(name, target)` method
+#### `Endpoint#pipe(name, target)`
 
 Equivalent to calling both `pipeOut()` and `pipeIn()`.
 
