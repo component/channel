@@ -70,7 +70,7 @@ Here are some applications of channel middleware:
 
 * [Simulating latency](https://github.com/component/channel-latency)
 * [Simulating packet loss](https://github.com/component/channel-drop)
-* Debouncing events
+* [Debouncing events](https://github.com/component/channel-debounce)
 * Batching events
 * Filtering events
 * Encrypting/decrypting data
