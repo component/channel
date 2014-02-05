@@ -68,8 +68,8 @@ To drop an event, simply return without calling `next()`.
 
 Here are some applications of channel middleware:
 
-* Simulating latency
-* Simulating packet loss
+* [Simulating latency](https://github.com/component/channel-latency)
+* [Simulating packet loss](https://github.com/component/channel-drop)
 * Debouncing events
 * Batching events
 * Filtering events
