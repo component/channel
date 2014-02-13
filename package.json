@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "two sided event emitter with middleware",
   "main": "index.js",
+  "dependencies": {
+    "component-inherit": "~0.0.3",
+    "component-emitter": "~1.1.2"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/component/channel.git"
